@@ -1,0 +1,33 @@
+#+title: Notes
+
+* Inbox
+* Idea
+** Editor Markdown Live preview
+*** Features /in scope/
+**** Heading mark
+Tags before text
+E.g.
+
+#+BEGIN_SRC markdown
+
+# Heading lv 1
+## Heading lv 2
+
+#+END_SRC
+
+**** Inline marks
+Tags around text, E.g
+
+#+begin_src markdown
+
+Bold,**Bold**, __BOLD__
+Italic,*italic*, _italic_
+Inline Code, `code`
+
+#+end_src
+
+**** Special marks
+ | Name      | tag                                                  | markdown example              |
+ |-----------+------------------------------------------------------+-------------------------------|
+ | Link tag  | `<a href="http://example.com">link </a>`             | [link](http://example.com)    |
+ | Image tag | `<img src="picture.png" alt="Image" title="icon" />` | ![Image](pictures.png "icon") |
