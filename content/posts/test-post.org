@@ -1,0 +1,7 @@
+#+title: test post
+
+#+BEGIN_PREVIEW
+Nunc auctor commodo aliquam. Donec in laoreet mauris. Nam rhoncus pulvinar velit elementum condimentum. Donec convallis massa finibus odio consectetur dignissim. Donec ultricies nunc ultricies nunc vehicula, non pulvinar justo egestas. Mauris aliquet dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+#+END_PREVIEW
+
+** this is a test post

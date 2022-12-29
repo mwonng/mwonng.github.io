@@ -1,0 +1,36 @@
+#+OPTIONS: title:nil
+#+TITLE: Blog - Michael
+#+AUTHOR: Michael Wang
+#+EMAIL: michael@wonng.com
+* [[file:posts/third-post.org][3rd post]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/third-post.html
+:PUBDATE:  <2022-12-30 Fri>
+:END:
+Published: <2022-12-30 Fri>
+
+Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
+
+[[file:third-post.org][Read More...]]
+-----
+* [[file:posts/test-post.org][test post]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/test-post.html
+:PUBDATE:  <2022-12-30 Fri>
+:END:
+Published: <2022-12-30 Fri>
+
+Nunc auctor commodo aliquam. Donec in laoreet mauris. Nam rhoncus pulvinar velit elementum condimentum. Donec convallis massa finibus odio consectetur dignissim. Donec ultricies nunc ultricies nunc vehicula, non pulvinar justo egestas. Mauris aliquet dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+
+[[file:test-post.org][Read More...]]
+-----
+* [[file:posts/new-page.org][new post]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/new-page.html
+:PUBDATE:  <2022-12-30 Fri>
+:END:
+Published: <2022-12-30 Fri>
+
+test preview contextLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu est at mauris pulvinar tincidunt. Maecenas odio urna, auctor quis tellus non, viverra hendrerit mauris. Nulla posuere luctus interdum. Sed efficitur semper dolor quis aliquet. Nam ut posuere mauris. Fusce porttitor nibh id neque facilisis, nec porttitor turpis fermentum. Duis scelerisque, lectus a vulputate fringilla, risus urna dictum mauris, sed euismod lectus erat vel nisl. Duis nibh justo, tempor in rutrum ut, fermentum in metus.
+
+[[file:new-page.org][Read More...]]

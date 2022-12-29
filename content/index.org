@@ -1,0 +1,5 @@
+#+title: Lighthouse
+
+#+INCLUDE: posts/index.org :lines "5-"
+
+Full posts: [[file:posts/index.org][See more...]]
