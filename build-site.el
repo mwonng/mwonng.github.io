@@ -89,7 +89,7 @@
             (articles (my-blog-sort-article-list filenames project-plist)))
       (dolist (file (my-blog-parse-sitemap-list list))
             (message  "do file: %s, all: %s" file articles)
-                  (let* ((abspath (file-name-concat my-website-blog-dir file))
+                  (let* ((abspath (concat my-website-blog-dir "/" file))
                         (relpath (file-relative-name abspath my-website-base-dir))
                         (title (org-publish-find-title file project-plist))
                         (date (format-time-string (car org-time-stamp-formats) (org-publish-find-date file project-plist)))
