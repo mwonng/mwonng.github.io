@@ -40,8 +40,8 @@
 
 (defvar *site-shared-directory* "content/shared")
 
-(defvar my-website-blog-dir "./content/posts")
-(defvar my-website-base-dir "./content")
+(defvar my-website-blog-dir "content/posts")
+(defvar my-website-base-dir "content")
 (defun read-html-template (template-file)
   (with-temp-buffer
     (insert-file-contents (concat *site-shared-directory* "/" template-file))
@@ -67,8 +67,11 @@
                               (goto-char (point-min))
                               (org-element-link-parser)))))
                 (when link
-                  (plist-get (cadr link) :path))))
-          (cdr l)))
+                  (plist-get (cadr link) :path))
+                  ))
+          (cdr l)
+      ))
+     
 
 (defun my-blog-sort-article-list (l p)
   "sort the article list anti-chronologically."
@@ -84,30 +87,30 @@
       (let* ((filenames (my-blog-parse-sitemap-list list))
             (project-plist (assoc "posts" org-publish-project-alist))
             (articles (my-blog-sort-article-list filenames project-plist)))
-      (dolist (file filenames)
-            (let* ((abspath (concat my-website-blog-dir "/" file))
-                  (relpath (file-relative-name abspath my-website-base-dir))
-                  (title (org-publish-find-title file project-plist))
-                  (date (format-time-string (car org-time-stamp-formats) (org-publish-find-date file project-plist)))
-                  (preview (my-blog-get-preview abspath)))
-            ;; insert a horizontal line before every post, kill the first one
-            ;; before saving
-            (insert "-----\n")
-            (insert (concat "* [[file:" file "][" title "]]\n"))
-            ;; add properties for `ox-rss.el' here
-            (let ((rss-permalink (concat (file-name-sans-extension relpath) ".html"))
-                  (rss-pubdate date))
-            (org-set-property "RSS_PERMALINK" rss-permalink)
-            (org-set-property "PUBDATE" rss-pubdate))
-            ;; insert the date, preview, & read more link
-            (insert (concat "Published: " date "\n\n"))
-            (insert preview)
-            (insert "\n")
-            (insert (concat "[[file:" file "][Read More...]]\n"))
-            ))
-      ;; kill the first hrule to make this look OK
-      (goto-char (point-min))
-      (let ((kill-whole-line t)) (kill-line))
+      (dolist (file (my-blog-parse-sitemap-list list))
+            (message  "do file: %s, all: %s" file articles)
+                  (let* ((abspath (file-name-concat my-website-blog-dir file))
+                        (relpath (file-relative-name abspath my-website-base-dir))
+                        (title (org-publish-find-title file project-plist))
+                        (date (format-time-string (car org-time-stamp-formats) (org-publish-find-date file project-plist)))
+                        (preview (my-blog-get-preview abspath)))
+                  ;; insert a horizontal line before every post, kill the first one
+                  ;; before saving
+                  (insert "-----\n")
+                  (insert (concat "* [[file:" file "][" title "]]\n"))
+                  ;; add properties for `ox-rss.el' here
+                  (let ((rss-permalink (concat (file-name-sans-extension relpath) ".html"))
+                        (rss-pubdate date))
+                  (org-set-property "RSS_PERMALINK" rss-permalink)
+                  (org-set-property "PUBDATE" rss-pubdate))
+                  ;; insert the date, preview, & read more link
+                  (insert (concat "Published: " date "\n\n"))
+                  (insert preview)
+                  (insert "\n")
+                  (insert (concat "[[file:" file "][Read More...]]\n"))))
+    ;; kill the first hrule to make this look OK
+    (goto-char (point-min))
+    (let ((kill-whole-line t)) (kill-line))
       ;; insert a title and save
       (insert "#+OPTIONS: title:nil\n")
       (insert "#+TITLE: Blog - Michael\n")
