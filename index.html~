@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Lighthouse</title>
-<meta name="generator" content="Org mode" />
+<meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
@@ -20,12 +20,46 @@
     </ul>
 </nav>
 </div>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Lighthouse</h1>
 
-<div id="outline-container-org65acef2" class="outline-2">
-<h2 id="org65acef2"><a href="posts/posts/new-page.html">new post</a></h2>
-<div class="outline-text-2" id="text-org65acef2">
+<div id="outline-container-orgfa4c99f" class="outline-2">
+<h2 id="orgfa4c99f"><a href="posts/posts/third-post.html">3rd post</a></h2>
+<div class="outline-text-2" id="text-orgfa4c99f">
+<p>
+Published: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-12-30 Fri&gt;</span></span>
+</p>
+
+<p>
+Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
+</p>
+
+<p>
+<a href="posts/third-post.html">Read More&#x2026;</a>
+</p>
+<hr />
+</div>
+</div>
+<div id="outline-container-org593d2b6" class="outline-2">
+<h2 id="org593d2b6"><a href="posts/posts/test-post.html">test post</a></h2>
+<div class="outline-text-2" id="text-org593d2b6">
+<p>
+Published: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-12-30 Fri&gt;</span></span>
+</p>
+
+<p>
+Nunc auctor commodo aliquam. Donec in laoreet mauris. Nam rhoncus pulvinar velit elementum condimentum. Donec convallis massa finibus odio consectetur dignissim. Donec ultricies nunc ultricies nunc vehicula, non pulvinar justo egestas. Mauris aliquet dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+</p>
+
+<p>
+<a href="posts/test-post.html">Read More&#x2026;</a>
+</p>
+<hr />
+</div>
+</div>
+<div id="outline-container-orgc61da92" class="outline-2">
+<h2 id="orgc61da92"><a href="posts/posts/new-page.html">new post</a></h2>
+<div class="outline-text-2" id="text-orgc61da92">
 <p>
 Published: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-12-30 Fri&gt;</span></span>
 </p>

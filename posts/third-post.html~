@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-12-30 Fri 04:24 -->
+<!-- 2022-12-30 Fri 14:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>test post</title>
-<meta name="generator" content="Org mode" />
+<title>3rd post</title>
+<meta name="author" content="Desktop-M" />
+<meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
@@ -21,25 +22,25 @@
     </ul>
 </nav>
 </div>
-<div id="content">
-<h1 class="title">test post</h1>
-<div id="table-of-contents">
+<div id="content" class="content">
+<h1 class="title">3rd post</h1>
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgf00cea2">this is a test post</a></li>
+<li><a href="#orgbb801ce">this is a 3rd test post</a></li>
 </ul>
 </div>
 </div>
-<div class="PREVIEW">
+<div class="PREVIEW" id="org20ffcba">
 <p>
-Nunc auctor commodo aliquam. Donec in laoreet mauris. Nam rhoncus pulvinar velit elementum condimentum. Donec convallis massa finibus odio consectetur dignissim. Donec ultricies nunc ultricies nunc vehicula, non pulvinar justo egestas. Mauris aliquet dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
 </p>
 
 </div>
 
-<div id="outline-container-orgf00cea2" class="outline-2">
-<h2 id="orgf00cea2">this is a test post</h2>
+<div id="outline-container-orgbb801ce" class="outline-2">
+<h2 id="orgbb801ce">this is a 3rd test post</h2>
 </div>
 </div>
 <div id="postamble" class="status">

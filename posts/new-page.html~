@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-12-30 Fri 04:24 -->
+<!-- 2022-12-30 Fri 14:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Blog - Michael</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="Michael Wang" />
+<title>new post</title>
+<meta name="author" content="Desktop-M" />
+<meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
@@ -22,30 +22,49 @@
     </ul>
 </nav>
 </div>
-<div id="content">
-<div id="table-of-contents">
+<div id="content" class="content">
+<h1 class="title">new post</h1>
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge4ceff4">new post</a></li>
+<li><a href="#org8b64b3f">this is a page post</a></li>
+<li><a href="#org0c20304">Welcome</a></li>
+<li><a href="#org5ea67d3">some more</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge4ceff4" class="outline-2">
-<h2 id="orge4ceff4"><a href="posts/new-page.html">new post</a></h2>
-<div class="outline-text-2" id="text-orge4ceff4">
-<p>
-Published: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-12-30 Fri&gt;</span></span>
-</p>
-
+<div class="PREVIEW" id="orge2c0eb7">
 <p>
 test preview contextLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu est at mauris pulvinar tincidunt. Maecenas odio urna, auctor quis tellus non, viverra hendrerit mauris. Nulla posuere luctus interdum. Sed efficitur semper dolor quis aliquet. Nam ut posuere mauris. Fusce porttitor nibh id neque facilisis, nec porttitor turpis fermentum. Duis scelerisque, lectus a vulputate fringilla, risus urna dictum mauris, sed euismod lectus erat vel nisl. Duis nibh justo, tempor in rutrum ut, fermentum in metus.
 </p>
 
-<p>
-<a href="new-page.html">Read More&#x2026;</a>
-</p>
 </div>
+
+<div id="outline-container-org8b64b3f" class="outline-2">
+<h2 id="org8b64b3f">this is a page post</h2>
+</div>
+
+<div id="outline-container-org0c20304" class="outline-2">
+<h2 id="org0c20304">Welcome</h2>
+<div class="outline-text-2" id="text-org0c20304">
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="font-weight: bold;">setq</span> funcname <span style="font-style: italic;">"value"</span>)
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-js">
+<span style="font-weight: bold;">export</span> <span style="font-weight: bold;">const</span> <span style="font-weight: bold; font-style: italic;">add</span>(a, b) {
+    <span style="font-weight: bold;">return</span> a + b
+}
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5ea67d3" class="outline-2">
+<h2 id="org5ea67d3">some more</h2>
 </div>
 </div>
 <div id="postamble" class="status">
