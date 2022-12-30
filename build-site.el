@@ -88,7 +88,6 @@
             (project-plist (assoc "posts" org-publish-project-alist))
             (articles (my-blog-sort-article-list filenames project-plist)))
       (dolist (file (my-blog-parse-sitemap-list list))
-            (message  "do file: %s, all: %s" file articles)
                   (let* ((abspath (concat my-website-blog-dir "/" file))
                         (relpath (file-relative-name abspath my-website-base-dir))
                         (title (org-publish-find-title file project-plist))
@@ -147,9 +146,9 @@
             :base-directory "./content"
             :publishing-directory "./docs"
             :publishing-function 'org-html-publish-to-html
-            :with-author nil           ;; Don't include author name
             :with-creator t            ;; Include Emacs and Org versions in footer
             :with-toc nil                ;; Include a table of contents
+            :with-author t                ;; Include a table of contents
             :section-numbers nil       ;; Don't include section numbers
             :time-stamp-file nil    ;; Don't include time stamp in file
             :auto-sitemap t
