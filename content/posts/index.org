@@ -2,17 +2,6 @@
 #+TITLE: Blog - Michael
 #+AUTHOR: Michael Wang
 #+EMAIL: michael@wonng.com
-* [[file:test-post.org][test post]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/test-post.html
-:PUBDATE:  <2022-12-30 Fri>
-:END:
-Published: <2022-12-30 Fri>
-
-Nunc auctor commodo aliquam. Donec in laoreet mauris. Nam rhoncus pulvinar velit elementum condimentum. Donec convallis massa finibus odio consectetur dignissim. Donec ultricies nunc ultricies nunc vehicula, non pulvinar justo egestas. Mauris aliquet dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
-
-[[file:test-post.org][Read More...]]
------
 * [[file:new-page.org][new post]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/new-page.html
@@ -34,3 +23,31 @@ Published: <2022-12-30 Fri>
 Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
 
 [[file:third-post.org][Read More...]]
+-----
+* [[file:road-to-australia.org][Road to Autralia | 我的移民之路]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/road-to-australia.html
+:PUBDATE:  <2017-07-04 Tue>
+:END:
+Published: <2017-07-04 Tue>
+
+记得我刚入澳洲的时候我就想过，我一定要把我的移民之路写下来，与大家，至少是 IT 圈子的朋友们分享一下。
+
+关于迁徙这件事，我咨询了不下10个中介，有多个持证移民代理，3个正式律师。其中有两个律师让我走了不少弯路，坑了我不少时间。希望如果未来有人要走的话，尽量不要被坑。
+
+本身移民这件事是一个选择生活方式的事情，并不涉及到国家好坏问题。我在这里只阐述我的观点，也许并不客观。如果有幸，您的意见与我相似，那么我们可以更深入的聊一聊这个话题；若不幸您的意见与我向左，那也请别恶言相送。每个人都有表达自己意见的权利，我尊重您不同的意见，您也可以随时纠正我的一些错误观点。但是若我坚持自己的观点，也请见谅。
+
+**另外，请从事国内移民中介的朋友们远离本文，我尊重你们的工作，但是我也绝对不会推荐朋友去找国内中介做移民。**
+
+[[file:road-to-australia.org][Read More...]]
+-----
+* [[file:spotify-vs-apple-music.org][Spotify vs iTunes music]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/spotify-vs-apple-music.html
+:PUBDATE:  <2016-07-12 Tue>
+:END:
+Published: <2016-07-12 Tue>
+
+Stream music become a controversial topic in social media  after Taylor Swift announce to pull her entire catalog off of Spotify.
+
+[[file:spotify-vs-apple-music.org][Read More...]]

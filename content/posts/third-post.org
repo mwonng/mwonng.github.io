@@ -1,8 +1,0 @@
-
-#+title: 3rd post
-
-#+BEGIN_PREVIEW
-Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
-#+END_PREVIEW
-
-** this is a 3rd test post

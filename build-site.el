@@ -95,6 +95,7 @@
                         (preview (my-blog-get-preview abspath)))
                   ;; insert a horizontal line before every post, kill the first one
                   ;; before saving
+                  (message "%s %s" file (org-publish-find-date file project-plist))
                   (insert "-----\n")
                   (insert (concat "* [[file:" file "][" title "]]\n"))
                   ;; add properties for `ox-rss.el' here
