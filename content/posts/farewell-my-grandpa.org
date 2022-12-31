@@ -1,8 +1,12 @@
----
-title: "Farewell, grandpa"
-date: "2018-10-31"
-path: "/post/farewell-grandpa"
----
+#+title: Farewell, grandpa
+#+date: <2018-10-31>
+
+#+BEGIN_PREVIEW
+It was several days after my grandpa pass away.
+
+I'm not posting anything about my grandpa in my social media for him. I feeling guility for cannot go back and have a talk with him at the end of his life because I'm really far away from him. I was going to see him next Christmas but I was very sad to hear that bad news for he goes away suddenly.
+#+END_PREVIEW
+
 It was several days after my grandpa pass away.
 
 I'm not posting anything about my grandpa in my social media for him. I feeling guility for cannot go back and have a talk with him at the end of his life because I'm really far away from him. I was going to see him next Christmas but I was very sad to hear that bad news for he goes away suddenly.
@@ -34,5 +38,3 @@ _这里是纯中文额内容了:_
 外公啊, 如果你看的到我, 看的到我写的话, 我没来得及看您最后一面, 只能在视频里看到您, 希望您不要介意. 你一定要记得, 不要抽烟了, 少喝酒了.
 
 外公啊, 我和妈妈都会很想念你的, 茉茉也长大懂事了, 都能照顾弟弟了. 我也挺好的, 我在这里生活都还好, 您也不用担心, 希望有一天, 能成为您的骄傲.
-
-

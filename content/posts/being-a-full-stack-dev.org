@@ -1,7 +1,7 @@
 #+title: Being a full-stack developer
 #+date: <2016-07-12>
 
-#+START_PREVIEW
+#+BEGIN_PREVIEW
 To be a full-stack developer is really a little hard for anyone including myself.
 
 Within coding and design, even documentation are my main job everyday. Compare to coding, design and documentation use more time. Customers care more about these two part even more than user experience which is combined by those three(the one i thought was most important in any software/system) was dismissed most of time.

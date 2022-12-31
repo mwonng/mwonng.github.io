@@ -156,6 +156,13 @@
             :time-stamp-file nil    ;; Don't include time stamp in file
             :auto-sitemap t
             :sitemap-filename "sitemap.org")
+       (list "static"
+        :base-directory "./content/posts/static"
+        :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+        :publishing-directory "./docs/"
+        :recursive t
+        :publishing-function 'org-publish-attachment
+             )
             ))
 
 ;; Generate the site output

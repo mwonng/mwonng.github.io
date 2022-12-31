@@ -2,7 +2,83 @@
 #+TITLE: Blog - Michael
 #+AUTHOR: Michael Wang
 #+EMAIL: michael@wonng.com
-* [[file:road-to-australia.org][Road to Autralia]]
+* [[file:working-with-tmux.org][working with tmux | 工作中使用 tmux]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/working-with-tmux.html
+:PUBDATE:  15/07/2019
+:END:
+Published: 15/07/2019
+
+As now I'm working on NAB, the projects are based on [[https://www.adobe.com/au/marketing/experience-manager.html][AEM]] and using React as SPA. Because AEM require at least two service running and sometime we need a mockup server as well. so that's means I have to keep 3 service alive for backend. Totally have 4 service with Node instance.
+
+
+[[file:working-with-tmux.org][Read More...]]
+-----
+* [[file:about-interview.org][面试感受后记]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/about-interview.html
+:PUBDATE:  28/05/2019
+:END:
+Published: 28/05/2019
+
+本篇为上一篇 [[./looking-for-a-job-in-melbourne.org][猫本求职记]] 之后续
+
+[[file:about-interview.org][Read More...]]
+-----
+* [[file:looking-for-a-job-in-melbourne.org][Job in Melbourne | 猫本求职记]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/looking-for-a-job-in-melbourne.html
+:PUBDATE:  28/05/2019
+:END:
+Published: 28/05/2019
+
+在澳洲如果没有大学学习经验，直接找工作并不是意见特别容易的事情。可能遇到的不了解面试流程，面试习惯以及一些技术偏好。正好有这次机会，我就尽量的去面试了更多的公司，了解一下澳洲整体 IT 水平和市场。
+
+此次面试我排除了 PHP 和 .NET 的技术，主要针对的是 JavaScript (Node.js) 以及 React.js 的方向，同时还涉及了 Ruby 的公司(严格说澳洲 Ruby 的公司并不是很多)，**以及所有的华人公司**🤓。
+
+[[file:looking-for-a-job-in-melbourne.org][Read More...]]
+-----
+* [[file:life-in-mim.org][Life in Make it Mine]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/life-in-mim.html
+:PUBDATE:  18/01/2019
+:END:
+Published: 18/01/2019
+
+/TL;DR: it is totally business I've never seen before./
+
+After i get the interview from Adam and Brett, I did a search about MIM's website and it's business. To my suprise, MIM sells products by weekly and it will pay 12 months. As a chinese, i calcuated immediately with 52 times by it's weekly price.
+
+[[file:life-in-mim.org][Read More...]]
+-----
+* [[file:farewell-my-grandpa.org][Farewell, grandpa]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/farewell-my-grandpa.html
+:PUBDATE:  31/10/2018
+:END:
+Published: 31/10/2018
+
+It was several days after my grandpa pass away.
+
+I'm not posting anything about my grandpa in my social media for him. I feeling guility for cannot go back and have a talk with him at the end of his life because I'm really far away from him. I was going to see him next Christmas but I was very sad to hear that bad news for he goes away suddenly.
+
+[[file:farewell-my-grandpa.org][Read More...]]
+-----
+* [[file:change-to-react-with-gatsbyjs.org]["Migrate blog to React.js with Gatsby.js"]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/change-to-react-with-gatsbyjs.html
+:PUBDATE:  28/10/2018
+:END:
+Published: 28/10/2018
+
+It's time to move from Ruby on Rails to *React.js for my Blog.
+
+After tried a lot of React option, including using Node with Medium, React, Next.js, Gatsby.js etc. I do finally choose Gatsby.js as blog choose. It's look the same with Jekyll in Ruby world. I might explain a little bit more for this choice.
+
+
+[[file:change-to-react-with-gatsbyjs.org][Read More...]]
+-----
+* [[file:road-to-australia.org][Road to Australia]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/road-to-australia.html
 :PUBDATE:  04/07/2017
@@ -15,9 +91,79 @@ Published: 04/07/2017
 
 本身移民这件事是一个选择生活方式的事情，并不涉及到国家好坏问题。我在这里只阐述我的观点，也许并不客观。如果有幸，您的意见与我相似，那么我们可以更深入的聊一聊这个话题；若不幸您的意见与我向左，那也请别恶言相送。每个人都有表达自己意见的权利，我尊重您不同的意见，您也可以随时纠正我的一些错误观点。但是若我坚持自己的观点，也请见谅。
 
-**另外，请从事国内移民中介的朋友们远离本文，我尊重你们的工作，但是我也绝对不会推荐朋友去找国内中介做移民。**
+*另外，请从事国内移民中介的朋友们远离本文，我尊重你们的工作，但是我也绝对不会推荐朋友去找国内中介做移民*
 
 [[file:road-to-australia.org][Read More...]]
+-----
+* [[file:cs-or-bs.org][C/S or B/S?]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/cs-or-bs.html
+:PUBDATE:  19/05/2017
+:END:
+Published: 19/05/2017
+
+At beginning of software development, client side  becoming popular in OS. So you have to install everything with a .EXE on window or .APP on Mac. Until now, we have a lot of C/S application in our personal computer.
+
+
+[[file:cs-or-bs.org][Read More...]]
+-----
+* [[file:reason-for-apart-filemaker.org][My reasons for quit FileMaker Business Alliance in China]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/reason-for-apart-filemaker.html
+:PUBDATE:  01/05/2017
+:END:
+Published: 01/05/2017
+
+事实上我已经离开 FileMaker 相关的生态圈，如果有任何疑问，我还会回答，但是我不会也不能再提供相关的报价。如果有任何购买的需求，请联系 FileMaker。
+
+*以下我会列出一些我选择离开大陆 FBA 的原因， 以下原因纯粹为个人见解，不代表任何官方色彩的评论*
+
+1. 受益群体
+其实这些年使用下来, FileMaker(以下简称: FM)一直是作为小公司或者部门，内部使用的工具之一。在打印 Label 以及快递单等类似的需求上，有着不可比拟的方便，至少我目前没发现。由于是 C/S 构架，导致产品在小型公司内部会比较收益，而本身产品特征决定了很多用户并不需要额外的开发，也就是FBA的协助。就国内情况而言，中小型企业极少会花钱投资在数据系统上，即使是有，愿意使用正版授权的也并不多，当然这一情况在好转。 而另外一个原因是，目前国内情况小型企业很难存活，而人工便宜，导致很多企业并没有强烈意愿用软件来代替生产力。而当人手不足的时候，实际上，一个人是能当多个人用的，但是如果付出给软件，那么这个投资成本就不能做其他用途了
+
+
+[[file:reason-for-apart-filemaker.org][Read More...]]
+-----
+* [[file:lets-talk-about-wechat.org][Let's talk about Wechat]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/lets-talk-about-wechat.html
+:PUBDATE:  01/05/2017
+:END:
+Published: 01/05/2017
+
+最近话题集中在了 WeChat 打赏和 Apple IAP 的争议。现在很多发声的人，其实都是打赏收益群体，不管多少吧，无比激烈，我就说两句吧。
+
+从感情上说，我觉得 Apple 这么做是有点狠的，倒不是说这件事，其实从 Apple 发布 App Store 开始，当时就明确规定了 苹果会抽走 30% 的销售额。我就觉得，这个抽的其实是有点多的。
+
+[[file:lets-talk-about-wechat.org][Read More...]]
+-----
+* [[file:being-a-full-stack-dev.org][Being a full-stack developer]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/being-a-full-stack-dev.html
+:PUBDATE:  12/07/2016
+:END:
+Published: 12/07/2016
+
+To be a full-stack developer is really a little hard for anyone including myself.
+
+Within coding and design, even documentation are my main job everyday. Compare to coding, design and documentation use more time. Customers care more about these two part even more than user experience which is combined by those three(the one i thought was most important in any software/system) was dismissed most of time.
+
+After my Objective-C, Php, Ruby on Rails, Html5, css, Javescript and etc, I was focus on [[http://www.filemaker.com][FileMaker]] in past two years as a small business.
+
+[[file:being-a-full-stack-dev.org][Read More...]]
+-----
+* [[file:im-back.org][I'm back!]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/im-back.html
+:PUBDATE:  12/07/2016
+:END:
+Published: 12/07/2016
+
+So, actually wordpress was blocked for a long time. I have never visit wordpress for THREE years! Although I could jailbreak the [[http://en.wikipedia.org/wiki/Golden_Shield_Project][Chinese Great Firewall]], I do not update this blog any more in last three years.
+
+Just come back and leave some update. and might some useful skill article.
+
+[[file:im-back.org][Read More...]]
 -----
 * [[file:spotify-vs-apple-music.org][Spotify vs iTunes music]]
 :PROPERTIES:
@@ -29,3 +175,27 @@ Published: 12/07/2016
 Stream music become a controversial topic in social media  after Taylor Swift announce to pull her entire catalog off of Spotify.
 
 [[file:spotify-vs-apple-music.org][Read More...]]
+-----
+* [[file:declaration-of-filemaker-developer-statement.org][Declaration of FileMaker Developer Statement]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/declaration-of-filemaker-developer-statement.html
+:PUBDATE:  08/07/2016
+:END:
+Published: 08/07/2016
+
+I am honor to being the first certificated FileMaker Business Alliance(FBA) partner in China area. With my 10 years FileMaker experience and my friends in Apple and FileMaker, I’m very shame to say i did a lot support to FileMaker and I will never to say that in the future. I am very appreciate for Jeff Cui(Current BDM in FileMaker China), Mr. Gui(current in Apple), Mr. Duanmu(was in Apple).
+
+[[file:declaration-of-filemaker-developer-statement.org][Read More...]]
+-----
+* [[file:in-memory-of-22-april-2016.org][In memory of 22 April 2016]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/in-memory-of-22-april-2016.html
+:PUBDATE:  22/04/2016
+:END:
+Published: 22/04/2016
+
+Today must be the most important day in my life.
+
+I want to thank a lot of person who give me huge help. Within almost one year, I just finally get the right direction of my nomination.
+
+[[file:in-memory-of-22-april-2016.org][Read More...]]
