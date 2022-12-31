@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-12-31 Sat 14:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Working with tmux | 工作中使用 tmux</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="preamble" class="status">
+<nav>
+    <div>Lighthouse - Michael</div>
+    <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Github</a></li>
+    </ul>
+</nav>
+</div>
+<div id="content">
+<h1 class="title">Working with tmux | 工作中使用 tmux</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org9098c21">Problem</a></li>
+<li><a href="#org0b11d58">My Screen</a>
+<ul>
+<li><a href="#orga4fd74d">iTerm screenshot</a></li>
+<li><a href="#org012420e">Vim screenshot</a></li>
+</ul>
+</li>
+<li><a href="#org9357698">Tmux for terminal session management</a></li>
+<li><a href="#org02e5017">FAQs</a></li>
+</ul>
+</div>
+</div>
+<div class="PREVIEW">
+<p>
+As now I'm working on NAB, the projects are based on <a href="https://www.adobe.com/au/marketing/experience-manager.html">AEM</a> and using React as SPA. Because AEM require at least two service running and sometime we need a mockup server as well. so that's means I have to keep 3 service alive for backend. Totally have 4 service with Node instance.
+</p>
+
+</div>
+
+<div id="outline-container-org9098c21" class="outline-2">
+<h2 id="org9098c21">Problem</h2>
+<div class="outline-text-2" id="text-org9098c21">
+<p>
+As now I'm working on NAB, the projects are based on <a href="https://www.adobe.com/au/marketing/experience-manager.html">AEM</a> and using React as SPA. Because AEM require at least two service running and sometime we need a mockup server as well. so that's means I have to keep 3 service alive for backend. Totally have 4 service with Node instance.
+</p>
+
+<p>
+<i>I don't know why Adobe buiding this product, but i won't work with AEM after this project.</i>
+</p>
+
+<p>
+For monitoring all service and it is better to resume as it might restart. iTerm is absolute a good terminal on Mac. but it can only save your last session location and can not detatch your session.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0b11d58" class="outline-2">
+<h2 id="org0b11d58">My Screen</h2>
+<div class="outline-text-2" id="text-org0b11d58">
+</div>
+<div id="outline-container-orga4fd74d" class="outline-3">
+<h3 id="orga4fd74d">iTerm screenshot</h3>
+<div class="outline-text-3" id="text-orga4fd74d">
+
+<div class="figure">
+<p><img src="../images/vim.png" alt="vim.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org012420e" class="outline-3">
+<h3 id="org012420e">Vim screenshot</h3>
+<div class="outline-text-3" id="text-org012420e">
+
+<div class="figure">
+<p><img src="../images/vimWithJs.png" alt="vimWithJs.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9357698" class="outline-2">
+<h2 id="org9357698">Tmux for terminal session management</h2>
+<div class="outline-text-2" id="text-org9357698">
+<p>
+There is a lot of guide to teach basic usage of Tmux, so just Google for general question.
+</p>
+
+<p>
+I just list my setting here. I might still update in the future.
+</p>
+
+<p>
+<a href="https://gist.github.com/mwonng/f1ac9cf0da07f0eb9264cc8bdf626d3e">.tmux.conf</a>
+</p>
+
+<p>
+In Tmux, you can also preview all different windows or panels if you want. Now i have move to Tmux for all my termianl works.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org02e5017" class="outline-2">
+<h2 id="org02e5017">FAQs</h2>
+<div class="outline-text-2" id="text-org02e5017">
+<ul class="org-ul">
+<li>How to copy text in Tmux?</li>
+</ul>
+<p>
+<i>it can be copied by setting mouse on <code>set -g mouse on</code> and using option key to select and copy, or if you are using iTerm, you can enable Applications in terminal may access clipboard in General.</i>
+</p>
+
+<p>
+<i>you can also use default prefix + <code>[</code> to enable copy mode and select text and press enter then use prefix + <code>]</code> to paste.</i>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+    footer area
+</footer>
+</div>
+</body>
+</html>
