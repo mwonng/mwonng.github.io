@@ -47,6 +47,8 @@
     (insert-file-contents (concat *site-shared-directory* "/" template-file))
     (buffer-string)))
 
+(setq org-export-html-date-format-string "%d/%m/%Y")
+
 (defun my-blog-get-preview (file)
   "The comments in FILE have to be on their own lines, prefereably before and after paragraphs."
   (with-temp-buffer
@@ -91,7 +93,7 @@
                   (let* ((abspath (concat my-website-blog-dir "/" file))
                         (relpath (file-relative-name abspath my-website-base-dir))
                         (title (org-publish-find-title file project-plist))
-                        (date (format-time-string (car org-time-stamp-formats) (org-publish-find-date file project-plist)))
+                        (date (format-time-string org-export-html-date-format-string (org-publish-find-date file project-plist)))
                         (preview (my-blog-get-preview abspath)))
                   ;; insert a horizontal line before every post, kill the first one
                   ;; before saving
@@ -154,6 +156,13 @@
             :time-stamp-file nil    ;; Don't include time stamp in file
             :auto-sitemap t
             :sitemap-filename "sitemap.org")
+       (list "static"
+        :base-directory "./content/posts/static"
+        :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+        :publishing-directory "./docs/"
+        :recursive t
+        :publishing-function 'org-publish-attachment
+             )
             ))
 
 ;; Generate the site output

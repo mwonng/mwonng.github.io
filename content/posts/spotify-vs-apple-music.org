@@ -1,5 +1,6 @@
 #+title: Spotify vs iTunes music
 #+date: <2016-07-12 Tue>
+
 #+BEGIN_PREVIEW
 Stream music become a controversial topic in social media  after Taylor Swift announce to pull her entire catalog off of Spotify.
 #+END_PREVIEW
@@ -12,7 +13,7 @@ Stream music become a controversial topic in social media  after Taylor Swift�
 
 I'm not sure when music streaming is get hot. At beginning, [[http://en.wikipedia.org/wiki/Pandora_Radio][Pandora]] is the first stream-music app as i know. However it is ONLY available in US Apple store, and it could not skip such a lot of ads during enjoying music. This app stay in my iPhone less than half a year.(Although one of the biggest problem is you have to use VPN to pretend you are in US.)
 
-After that i stop using stream-music app for a long time because most of that app has bad network from China. Buffering is annoyed if you are listening music. And for most Chinese, they do not using such Spotify, Pandora, Rdio or other same service. Most my friend could download FREE music in Baidu or Tencent QQ. Those vendor claim that they own the copyright of the songs they offer to download. However, if you trying to get access to [Baidu Music ](http://music.baidu.com "Baidu Music")or [QQ Music](http://y.qq.com/ "QQ Music"), they do not allow to next. You will get a notice like, the service is not provide to your area.
+After that i stop using stream-music app for a long time because most of that app has bad network from China. Buffering is annoyed if you are listening music. And for most Chinese, they do not using such Spotify, Pandora, Rdio or other same service. Most my friend could download FREE music in Baidu or Tencent QQ. Those vendor claim that they own the copyright of the songs they offer to download. However, if you trying to get access to [[http://music.baidu.com][Baidu Music]] or [[http://y.qq.com/][QQ Music]], they do not allow to next. You will get a notice like, the service is not provide to your area.
 
 I was being thought as a freak by a lot of my friend because I subscribe Spotify and buy App from App Store and Mac Store for a long time. I do really thought Spotify is really a pretty good service for most people.
 
