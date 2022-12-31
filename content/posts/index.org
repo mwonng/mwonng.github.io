@@ -2,34 +2,12 @@
 #+TITLE: Blog - Michael
 #+AUTHOR: Michael Wang
 #+EMAIL: michael@wonng.com
-* [[file:new-page.org][new post]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/new-page.html
-:PUBDATE:  <2022-12-30 Fri>
-:END:
-Published: <2022-12-30 Fri>
-
-test preview contextLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu est at mauris pulvinar tincidunt. Maecenas odio urna, auctor quis tellus non, viverra hendrerit mauris. Nulla posuere luctus interdum. Sed efficitur semper dolor quis aliquet. Nam ut posuere mauris. Fusce porttitor nibh id neque facilisis, nec porttitor turpis fermentum. Duis scelerisque, lectus a vulputate fringilla, risus urna dictum mauris, sed euismod lectus erat vel nisl. Duis nibh justo, tempor in rutrum ut, fermentum in metus.
-
-[[file:new-page.org][Read More...]]
------
-* [[file:third-post.org][3rd post]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/third-post.html
-:PUBDATE:  <2022-12-30 Fri>
-:END:
-Published: <2022-12-30 Fri>
-
-Morbi placerat ligula a elementum tincidunt. Maecenas non massa ut quam dignissim mattis. Etiam lacus tortor, tempor vitae rhoncus sit amet, suscipit et nisl. Duis non nibh hendrerit, ultrices metus id, porta neque.
-
-[[file:third-post.org][Read More...]]
------
-* [[file:road-to-australia.org][Road to Autralia | 我的移民之路]]
+* [[file:road-to-australia.org][Road to Autralia]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/road-to-australia.html
-:PUBDATE:  <2017-07-04 Tue>
+:PUBDATE:  04/07/2017
 :END:
-Published: <2017-07-04 Tue>
+Published: 04/07/2017
 
 记得我刚入澳洲的时候我就想过，我一定要把我的移民之路写下来，与大家，至少是 IT 圈子的朋友们分享一下。
 
@@ -44,9 +22,9 @@ Published: <2017-07-04 Tue>
 * [[file:spotify-vs-apple-music.org][Spotify vs iTunes music]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/spotify-vs-apple-music.html
-:PUBDATE:  <2016-07-12 Tue>
+:PUBDATE:  12/07/2016
 :END:
-Published: <2016-07-12 Tue>
+Published: 12/07/2016
 
 Stream music become a controversial topic in social media  after Taylor Swift announce to pull her entire catalog off of Spotify.
 
