@@ -1,15 +1,102 @@
 /* my setting */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .navbar {
   list-style: none;
   display: flex;
   justify-content: end;
   margin: 0;
+  padding: 0.5rem 0;
+  box-shadow: 0 .75px 0 #576c8d;
 }
 
 .navbar > li {
   padding: 5px 10px;
 }
 
+.navbar > li a {
+  color: #696d7d;
+}
+
+.navbar > li a:hover {
+  color: #4f3d63;
+}
+
 .PREVIEW {
   display: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #576c8d;
+}
+
+a:hover {
+  color: #6F8FAF;
+}
+
+body {
+  font-family:'Merriweather', serif;
+}
+
+#postamble {
+  margin: 2rem 0
+}
+
+#postamble > p {
+  margin: 5px 0;
+}
+
+#postamble > p.author {
+  font-style: italic;
+  font-weight: bold;
+}
+
+blockquote > p {
+  margin: 0;
+}
+
+#content {
+  margin-bottom: 5rem;
+}
+
+.home-profile {
+  margin: 0;
+}
+
+.home-profile-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-right: 0.875rem;
+  margin-bottom: 0;
+}
+
+.profile-ctn blockquote {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-ctn {
+  display: flex;
+}
+
+@media only screen and (max-width: 720px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .profile-ctn {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+  }
+
+  .profile-ctn > img {
+    margin-bottom: 1rem;
+  }
 }

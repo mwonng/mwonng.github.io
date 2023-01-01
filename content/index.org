@@ -1,6 +1,20 @@
-#+title: Lighthouse
+#+title: Who am I?
 #+author: Michael
+#+OPTIONS: author:nil
 
-#+INCLUDE: posts/index.org :lines "5-"
+#+begin_export html
+<div class="profile-ctn" >
+  <img class="home-profile-img" src="images/avatarM.png" alt="Michael Wonng">
+  <blockquote>
+    <p class="home-profile">
+      <strong>Michael Wonng(Wang)</strong><br/>
+      A husband, father and software engineer in Melbourne.
+      <a href="https://twitter.com/mwonng">Follow me on twitter. </a>
+      Have a glance at my
+      <a href="https://github.com/mwonng">GitHub</a>.
+    </p>
+  </blockquote>
+</div>
+#+end_export
 
-Full posts: [[file:posts/index.org][See more...]]
+#+INCLUDE: posts/index.org :lines "5-49"

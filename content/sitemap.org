@@ -1,4 +1,3 @@
 #+TITLE: Sitemap for project lighthouse-site
 
-- [[file:about.org][About]]
-- [[file:index.org][Lighthouse]]
+- [[file:index.org][Who am I?]]

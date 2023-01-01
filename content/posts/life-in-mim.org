@@ -3,8 +3,6 @@
 #+author: Michael Wang
 
 #+BEGIN_PREVIEW
-/TL;DR: it is totally business I've never seen before./
-
 After i get the interview from Adam and Brett, I did a search about MIM's website and it's business. To my suprise, MIM sells products by weekly and it will pay 12 months. As a chinese, i calcuated immediately with 52 times by it's weekly price.
 #+END_PREVIEW
 

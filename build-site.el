@@ -108,7 +108,7 @@
                   (org-set-property "RSS_PERMALINK" rss-permalink)
                   (org-set-property "PUBDATE" rss-pubdate))
                   ;; insert the date, preview, & read more link
-                  (insert (concat "Published: " date "\n\n"))
+                  ;; (insert (concat "Published: " date "\n\n"))
                   (insert preview)
                   (insert "\n")
                   (insert (concat "[[file:" file "][Read More...]]\n"))))
@@ -116,7 +116,7 @@
     (goto-char (point-min))
     (let ((kill-whole-line t)) (kill-line))
       ;; insert a title and save
-      (insert "#+OPTIONS: title:nil\n")
+      (insert "#+OPTIONS: title:nil html-postamble:nil\n")
       (insert "#+TITLE: Blog - Michael\n")
       (insert "#+AUTHOR: Michael Wang\n")
       (insert "#+EMAIL: michael@wonng.com\n")
@@ -153,6 +153,7 @@
             :base-directory "./content"
             :publishing-directory "./docs"
             :publishing-function 'org-html-publish-to-html
+            :html-postamble nil
             :with-creator t            ;; Include Emacs and Org versions in footer
             :with-toc nil                ;; Include a table of contents
             :with-author t                ;; Include a table of contents
