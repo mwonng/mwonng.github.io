@@ -1,5 +1,6 @@
 #+title: Spotify vs iTunes music
 #+date: <2016-07-12 Tue>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 Stream music become a controversial topic in social media  after Taylor Swift announce to pull her entire catalog off of Spotify.

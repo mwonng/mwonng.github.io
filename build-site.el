@@ -48,6 +48,8 @@
     (buffer-string)))
 
 (setq org-export-html-date-format-string "%d/%m/%Y")
+(setq org-html-metadata-timestamp-format "%I:%M %p on %e %b, %Y")
+
 
 (defun my-blog-get-preview (file)
   "The comments in FILE have to be on their own lines, prefereably before and after paragraphs."
@@ -124,7 +126,8 @@
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"./css/style.css\" />"
+      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
+                     <link rel=\"stylesheet\" href=\"/css/style.css\" />"
       org-html-preamble (read-html-template "nav.html")
       org-html-postamble (read-html-template "footer.html")
       )
