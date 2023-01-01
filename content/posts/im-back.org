@@ -1,5 +1,6 @@
 #+title: I'm back!
 #+date: <2016-07-12>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 So, actually wordpress was blocked for a long time. I have never visit wordpress for THREE years! Although I could jailbreak the [[http://en.wikipedia.org/wiki/Golden_Shield_Project][Chinese Great Firewall]], I do not update this blog any more in last three years.

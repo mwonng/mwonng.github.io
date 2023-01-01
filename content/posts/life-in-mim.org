@@ -1,5 +1,6 @@
 #+title: Life in Make it Mine
 #+date: <2019-01-18>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 /TL;DR: it is totally business I've never seen before./

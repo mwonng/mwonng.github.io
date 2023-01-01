@@ -1,5 +1,6 @@
 #+title: Being a full-stack developer
 #+date: <2016-07-12>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 To be a full-stack developer is really a little hard for anyone including myself.

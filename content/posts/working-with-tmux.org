@@ -1,5 +1,6 @@
 #+title: Working with tmux | 工作中使用 tmux
 #+date: <2019-07-15>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 As now I'm working on NAB, the projects are based on [[https://www.adobe.com/au/marketing/experience-manager.html][AEM]] and using React as SPA. Because AEM require at least two service running and sometime we need a mockup server as well. so that's means I have to keep 3 service alive for backend. Totally have 4 service with Node instance.

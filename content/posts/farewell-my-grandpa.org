@@ -1,5 +1,6 @@
 #+title: Farewell, grandpa
 #+date: <2018-10-31>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 It was several days after my grandpa pass away.

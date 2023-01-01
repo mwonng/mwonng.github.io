@@ -1,5 +1,6 @@
 #+title: My reasons for quit FileMaker Business Alliance in China
 #+date: <2017-05-01>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 事实上我已经离开 FileMaker 相关的生态圈，如果有任何疑问，我还会回答，但是我不会也不能再提供相关的报价。如果有任何购买的需求，请联系 FileMaker。

@@ -1,5 +1,6 @@
 #+title: Let's talk about Wechat
 #+date: <2017-05-01>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 最近话题集中在了 WeChat 打赏和 Apple IAP 的争议。现在很多发声的人，其实都是打赏收益群体，不管多少吧，无比激烈，我就说两句吧。

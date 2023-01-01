@@ -1,5 +1,6 @@
 #+title: "Migrate blog to React.js with Gatsby.js"
 #+date: <2018-10-28>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 It's time to move from Ruby on Rails to *React.js for my Blog.

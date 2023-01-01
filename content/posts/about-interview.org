@@ -1,5 +1,6 @@
 #+title: 面试感受后记
 #+date: <2019-05-28>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 本篇为上一篇 [[./looking-for-a-job-in-melbourne.org][猫本求职记]] 之后续

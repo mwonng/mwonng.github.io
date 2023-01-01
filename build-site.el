@@ -142,6 +142,7 @@
             :publishing-directory "./docs/posts"
             :publishing-function 'org-html-publish-to-html
             :auto-sitemap t
+            :with-toc nil                ;; Include a table of contents
             :sitemap-function 'my-blog-sitemap
             :sitemap-title "Blog Posts"
             :sitemap-filename "index.org"

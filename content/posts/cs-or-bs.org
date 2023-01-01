@@ -1,5 +1,6 @@
 #+title: C/S or B/S?
 #+date: <2017-05-19>
+#+author: Michael Wang
 
 #+BEGIN_PREVIEW
 At beginning of software development, client side  becoming popular in OS. So you have to install everything with a .EXE on window or .APP on Mac. Until now, we have a lot of C/S application in our personal computer.
