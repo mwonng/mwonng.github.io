@@ -84,6 +84,26 @@ blockquote > p {
   display: flex;
 }
 
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
 @media only screen and (max-width: 720px) {
   .navbar {
     justify-content: center;
@@ -98,5 +118,29 @@ blockquote > p {
 
   .profile-ctn > img {
     margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1.15rem;
+  }
+
+  body {
+    font-size: 1rem;
   }
 }
