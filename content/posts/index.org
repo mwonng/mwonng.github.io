@@ -11,15 +11,6 @@ As now I'm working on NAB, the projects are based on [[https://www.adobe.com/au/
 
 [[file:working-with-tmux.org][Read More...]]
 -----
-* [[file:about-interview.org][面试感受后记]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/about-interview.html
-:PUBDATE:  28/05/2019
-:END:
-本篇为上一篇 [[./looking-for-a-job-in-melbourne.org][猫本求职记]] 之后续
-
-[[file:about-interview.org][Read More...]]
------
 * [[file:looking-for-a-job-in-melbourne.org][Job in Melbourne | 猫本求职记]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/looking-for-a-job-in-melbourne.html
@@ -28,6 +19,15 @@ As now I'm working on NAB, the projects are based on [[https://www.adobe.com/au/
 在澳洲如果没有大学学习经验，直接找工作并不是意见特别容易的事情。可能遇到的不了解面试流程，面试习惯以及一些技术偏好。正好有这次机会，我就尽量的去面试了更多的公司，了解一下澳洲整体 IT 水平和市场。
 
 [[file:looking-for-a-job-in-melbourne.org][Read More...]]
+-----
+* [[file:about-interview.org][面试感受后记]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/about-interview.html
+:PUBDATE:  28/05/2019
+:END:
+本篇为上一篇 [[./looking-for-a-job-in-melbourne.org][猫本求职记]] 之后续
+
+[[file:about-interview.org][Read More...]]
 -----
 * [[file:life-in-mim.org][Life in Make it Mine]]
 :PROPERTIES:
@@ -84,6 +84,17 @@ At beginning of software development, client side  becoming popular in OS. So yo
 
 [[file:cs-or-bs.org][Read More...]]
 -----
+* [[file:lets-talk-about-wechat.org][Let's talk about Wechat]]
+:PROPERTIES:
+:RSS_PERMALINK: posts/lets-talk-about-wechat.html
+:PUBDATE:  01/05/2017
+:END:
+最近话题集中在了 WeChat 打赏和 Apple IAP 的争议。现在很多发声的人，其实都是打赏收益群体，不管多少吧，无比激烈，我就说两句吧。
+
+从感情上说，我觉得 Apple 这么做是有点狠的，倒不是说这件事，其实从 Apple 发布 App Store 开始，当时就明确规定了 苹果会抽走 30% 的销售额。我就觉得，这个抽的其实是有点多的。
+
+[[file:lets-talk-about-wechat.org][Read More...]]
+-----
 * [[file:reason-for-apart-filemaker.org][My reasons for quit FileMaker Business Alliance in China]]
 :PROPERTIES:
 :RSS_PERMALINK: posts/reason-for-apart-filemaker.html
@@ -98,17 +109,6 @@ At beginning of software development, client side  becoming popular in OS. So yo
 
 
 [[file:reason-for-apart-filemaker.org][Read More...]]
------
-* [[file:lets-talk-about-wechat.org][Let's talk about Wechat]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/lets-talk-about-wechat.html
-:PUBDATE:  01/05/2017
-:END:
-最近话题集中在了 WeChat 打赏和 Apple IAP 的争议。现在很多发声的人，其实都是打赏收益群体，不管多少吧，无比激烈，我就说两句吧。
-
-从感情上说，我觉得 Apple 这么做是有点狠的，倒不是说这件事，其实从 Apple 发布 App Store 开始，当时就明确规定了 苹果会抽走 30% 的销售额。我就觉得，这个抽的其实是有点多的。
-
-[[file:lets-talk-about-wechat.org][Read More...]]
 -----
 * [[file:being-a-full-stack-dev.org][Being a full-stack developer]]
 :PROPERTIES:
