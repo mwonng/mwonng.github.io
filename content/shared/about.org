@@ -1,4 +1,0 @@
-#+title: About
-#+author: Michael
-
-Hello, world

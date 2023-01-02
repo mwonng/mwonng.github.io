@@ -38,7 +38,7 @@
 ;; load the publishing system
 (require 'ox-publish)
 
-(defvar *site-shared-directory* "content/shared")
+(defvar *site-shared-directory* "./shared")
 
 (defvar my-website-blog-dir "content/posts")
 (defvar my-website-base-dir "content")
@@ -162,13 +162,11 @@
             :auto-sitemap t
             :sitemap-filename "sitemap.org")
        (list "static"
-        :base-directory "./content/posts/static"
+        :base-directory "./content"
         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
         :publishing-directory "./docs/"
         :recursive t
-        :publishing-function 'org-publish-attachment
-             )
-            ))
+        :publishing-function 'org-publish-attachment)))
 
 ;; Generate the site output
 (org-publish-all t)
