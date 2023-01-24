@@ -1,0 +1,32 @@
+#+title: Lazy Michael
+#+author: Michael Wang
+#+date: <2023-01-10 Tue>
+#+BEGIN_PREVIEW
+It's literally 5th time to migrate my blog again. This time is migrate from Gatsby.js to Org-mode, I also move to emacs as well with this chance.
+#+END_PREVIEW
+
+* Lazy and lazy
+It's literally 5th time to migrate my blog again. This time is migrate from Gatsby.js to Org-mode, I also move to emacs as well with this chance.
+
+** Time cost
+We you became a two kids' father and also been the first generation migrant. It's pretty hard to still pay attention to all blog which need update it's security issue and update to the latest version. My old Gatsby still in version 1 so i got the notification a few times to upgrade since 2019. But I do not have such time to upgrade and when i realise i need to upgrade. Gatsby looks like not support upgrade to latest version from v1 directly. I have to do it manually.
+
+**  The good decision i had
+Luckily, I have all my blogs stored as markdown format, so i can easily have all the text comes back(although i actually dont have that many blogs).
+
+So for this time i prefer not use any blog platform such as Jekyll or Hugo or Next.js. All those would make above experience again. This time as you can see I have all blog stored as org file and export to HTML straight without rely on any other blog platform and i have my css write myself, so no any sercurity issue, everything is static HTML and plant text.
+
+* Life recent years
+** Work in Oz
+ since NAB, I've work for different employers in Australia now. I really appreciate a lot of guys in workplace give me a huge help in the past years especially during Covid.
+
+ It's really a good experience with all of you guys. I know that's a short period but it's always good with all champions.
+
+** Work from home
+I think it's getting more common WFH now. I'm now WFH mostly of time and it save 2hrs every day and it suits me very well.
+
+** Frontend focus
+Yeah, i was always been working as different roles in the past 10 years. 7 years ago i decide to focus on more frontend and most of my time i still been full-stack. But I think it's better to be a frontend focus dev.
+
+** Happy father, happy life
+Yes happy life. In the end of year and the new year of 2023. I hope I can have more time to write something here and also have more time share with my family.
